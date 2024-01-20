@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    height: 300px;
+    padding: 5px;
+    background-color: #0F4C75;
+    text-align: center;
+ }
+ 
+.header{
+    margin-top: 0px;
+    padding-top: 0px;  
+}
+
+nav {
+    background-color: #3282B8;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1B262C;
+    margin: 0;
+    padding: 0;
+    background-color: #D6E6F2;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    padding: 10px 20px;
+}
+
+.featured-image {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+figcaption{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 10px 20px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.img-profile{
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+label{
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.email{
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: 10px;
+    background-color: #3282B8;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0F4C75;
+    font-weight: 900;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #1B262C;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .jumbotron {
+        height: 140px;
+        padding: 10px;
+        background-color: #0F4C75;
+        text-align: center;
+     }
+
+    nav {
+        background-color: #3282B8;
+        text-align: center;
+        padding: 5px;
+        position: sticky;
+        top: 0;
+    }
+    
+    ul{
+        padding: 0px;
+        border: 0px;
+    }
+
+    nav a {
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right:5px;
+    }
+    
+    
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+    width: 200px;
+    
+    }
+
+    section{
+        padding-left: 0%;
+        border-left: 0%;
+    }
+
+    h1, h2{
+        text-align: left;
+    }
+}
+
